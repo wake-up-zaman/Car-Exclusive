@@ -1,0 +1,19 @@
+.header{
+    text-align: center;
+    background-color: rgb(30, 137, 187);
+    padding: 10px;
+}
+.header h2{
+    margin: 0px;
+}
+.header h1{
+    color: tomato;
+}
+
+@media screen and (max-width:600px){
+    .header{
+        width:72%;
+        justify-content: center;
+        margin:45px;
+    }
+}

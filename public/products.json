@@ -1,0 +1,72 @@
+[
+  {
+    "id": "111",
+    "name": "Tesla KG",
+    "price": 4200000,
+    "ratings": 4,
+    "img":"https://i.pinimg.com/originals/33/43/cc/3343cc952ff7625fba8eaafa2922862b.jpg"
+  },
+  {
+    "id": "222",
+    "name": "Lambhorghini 990",
+    "price": 5600000,
+    "ratings": 4,
+    "img":"https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80"
+  },
+  {
+    "id": "333",
+    "name": "Tesla PRT",
+    "price": 7800000,
+    "ratings": 5,
+    "img":"https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&fit=crop"
+  },
+  {
+    "id": "444",
+    "name": "Mazda XR",
+    "price": 9800000,
+    "ratings": 3,
+    "img":"https://cdn.motor1.com/images/mgl/8e8Mo/s1/4x3/most-expensive-new-cars-ever.webp"
+  },
+  {
+    "id": "555",
+    "name": "Toyota V",
+    "price": 7500000,
+    "ratings": 5,
+    "img":"https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+  },
+  {
+    "id": "666",
+    "name": "Jaguar HT",
+    "price": 6700000,
+    "ratings": 4,
+    "img":"https://1auto.co/storage/ready_for_sales/20220216171927_2022-chevrolet-corvette-z06-1607016574.jpg"
+  },
+  {
+    "id": "777",
+    "name": "Mitsubishi FW",
+    "price": 8800000,
+    "ratings": 3,
+    "img":"https://stat.overdrive.in/wp-content/odgallery/2020/06/57263_2020_Mercedes_Benz_GLS.jpg"
+  },
+  {
+    "id": "888",
+    "name": "Tesla 550",
+    "price": 6300000,
+    "ratings": 4,
+    "img":"https://media.wired.com/photos/5d09594a62bcb0c9752779d9/125:94/w_1994,h_1500,c_limit/Transpo_G70_TA-518126.jpg"
+  },
+  {
+    "id": "999",
+    "name": "Volvo CX",
+    "price": 5600000,
+    "ratings": 5,
+    "img":"https://www.bugatti.com/fileadmin/_processed_/9/5/csm_HEADER_22de7ed3a8.jpg"
+  },
+  {
+    "id": "1000",
+    "name": "Lexus YS",
+    "price": 9300000,
+    "ratings": 5,
+    "img":"https://upload.wikimedia.org/wikipedia/commons/a/ae/2020_Bugatti_Chiron_Super_Sport_300%2B_Prototype.jpg"
+  }
+]
