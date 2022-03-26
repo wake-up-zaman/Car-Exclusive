@@ -10,6 +10,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     margin:100px 50px;
+    position: relative;
 
 }
 
@@ -31,10 +32,53 @@
     }
 }
 .cart-container{
-    background-color: #8aa4b6;
+    background-color: #b2cde0;
     margin-top: 100px;
     margin-right: 50px;
     margin-left: 0px;
     color:aliceblue;
+    position:sticky;
+    top: 0;
     
+
+    
+}
+.btn-choose-the-best-one{
+    width:50%;
+    background-color: #6082a1;
+    border: 3px;
+    border-radius: 10px;
+    bottom: 0px;
+    margin-left: 80px;
+    align-items: center;
+    padding: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    display: block;
+
+
+}
+.btn-choose-the-best-one:hover{
+    background-color: rgb(31, 150, 60);
+    color: whitesmoke;
+}
+
+.reset{
+    width:50%;
+    background-color: #6082a1;
+    border: 3px;
+    border-radius: 10px;
+    bottom: 0px;
+    margin-left: 80px;
+    margin-top: 20px;
+    align-items: center;
+    padding: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    display: block;
+}
+
+.reset:hover{
+    background-color: red;
+    color: whitesmoke;
 }
