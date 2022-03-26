@@ -52,11 +52,9 @@
     border: 3px;
     border-radius: 10px;
     bottom: 0px;
-
     align-items: center;
     padding: 10px;
     color: aliceblue;
-    font-weight: bold;
     display: block;
 
 
@@ -67,21 +65,14 @@
 }
 
 .reset{
-    width:40%;
     background-color: #6082a1;
     border: 3px;
     border-radius: 10px;
-    bottom: 0px;
-    margin-left: 70px;
-    margin-top: 20px;
-    align-items: center;
-    color: aliceblue;
-    font-weight: bold;
-    display: block;
     padding: 10px;
-    justify-content: center;
-}
+    color: aliceblue;
+    width:40%;
 
+}
 .reset:hover{
     background-color: red;
     color: whitesmoke;

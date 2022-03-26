@@ -4,8 +4,9 @@ import Cart from '../Cart/Cart';
 import './Shop.css';
 const Shop = () => {
     const [products,setProducts]=useState([])
+
     const [cart,setCart]=useState([])
-    const[cart2,setCart2]=useState([])
+
 
     useEffect(()=>{
         fetch('products.json')
@@ -21,8 +22,16 @@ const Shop = () => {
 
  
     }; 
-    const resetFromCart=(cart)=>{
 
+    const randomFromCart=(name)=>{
+        const randomid=Math.floor(Math.random()*cart.length)+1;
+        randomid=[name]
+        setCart(randomid)
+        console.log(randomid)
+
+    }
+
+    const resetFromCart=()=>{
         setCart([]);
     }
     return (
@@ -39,14 +48,15 @@ const Shop = () => {
                     </div>
 
                     <div className='cart-container col-sm-12 col-md-12 col-lg-6  align-content-center flex-wrap '>
-                    <h3 className='d-flex justify-content-center'>Order-List</h3>
+                        <h3 className='d-flex justify-content-center'>Order-List</h3>
                         {
                             cart.map(cart=><Cart
-                            key={cart.id}
-                            cart={cart}></Cart>)
+                            key={cart.id}    
+                            cart={cart}
+                            ></Cart>)
                          }
-                        <button className='btn-choose-the-best-one'>CHOOSE THE BEST ONE</button>
-                        <button onClick={()=>resetFromCart(cart)} className='reset'>RESET</button>
+                        <button onClick={()=>randomFromCart(cart.name)} className='btn-choose-the-best-one mt-5'>Choose The Best One !</button>
+                        <button onClick={()=>resetFromCart(cart)} className='reset mt-4 justify-content-center'>Reset</button>
                     </div>
 
                 </div>
