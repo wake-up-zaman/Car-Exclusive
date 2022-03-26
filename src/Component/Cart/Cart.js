@@ -3,11 +3,9 @@ import './Cart.css';
 const Cart = (props) => {
     // console.log(props.cart)
     const {name}=props.cart;
-    const [cartItems,setcartItems]=useState([])
-    const Name=[name];
     return (
         <div className='cart-info'>
-            <p> {name}</p>
+            <p className='para'> {name}</p>
         </div>
     );
 };

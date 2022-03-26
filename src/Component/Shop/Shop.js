@@ -28,29 +28,32 @@ const Shop = () => {
         console.log(newCart2[0])
     }
     return (
-        <div className='shop-container'>
-                <div className="products-container">
-                {
+        <div className='container'>
+                <div className='shop-container row flex-column-reverse flex-md-row  gx-2'>
+                    <div className="products-container col-sm-12 col-md-12 col-lg-6">
+                        {
                         products.map(product=><Product
                             key={product.id}
                             product={product}
                             handleAddToCart={handleAddToCart}
                             ></Product>)
-                    }
-                </div>
+                         }
+                    </div>
 
-                <div className='cart-container'>
-                    <h2>Order List</h2>
-                    {
-                        cart.map(cart=><Cart
+                    <div className='cart-container col-sm-12 col-md-12 col-lg-6  align-content-center flex-wrap '>
+                    <h3 className='d-flex justify-content-center'>Order-List</h3>
+                        {
+                            cart.map(cart=><Cart
                             key={cart.id}
                             cart={cart}></Cart>)
-                    }
-                    <button onClick={()=>randomFromCart(cart)}  className='btn-choose-the-best-one'>CHOOSE THE BEST ONE</button>
-                    <button className='reset'>RESET</button>
-                </div>
+                         }
+                        <button onClick={()=>randomFromCart(cart)}  className='btn-choose-the-best-one'>CHOOSE THE BEST ONE</button>
+                        <button className='reset'>RESET</button>
+                    </div>
 
+                </div>
         </div>
+
     );
 };
 

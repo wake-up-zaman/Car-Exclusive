@@ -2,4 +2,9 @@
     font-weight: bold;
     color: rgb(39, 34, 34);
 
+
+}
+.para{
+    display: block;
+    font-size: 30px;
 }

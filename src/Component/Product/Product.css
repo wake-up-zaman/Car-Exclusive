@@ -44,7 +44,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 80px;
 
 
 }
@@ -55,6 +54,12 @@
 
 .btn-text{
     margin-right: 5px;
+    margin-top: 10px;
     align-items: center;
     justify-content: center;
+}
+.btn{
+    display: block;
+    padding-left: 70px;
+
 }
