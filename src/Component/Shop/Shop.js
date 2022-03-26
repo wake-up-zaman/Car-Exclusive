@@ -21,11 +21,8 @@ const Shop = () => {
 
  
     }; 
-    const randomFromCart=(cart)=>{
-        // console.log(cart);
-        // const newCart2=[...cart2,cart]
-        // setCart2(newCart2)
-        // console.log(newCart2[0])
+    const resetFromCart=(cart)=>{
+
         setCart([]);
     }
     return (
@@ -49,7 +46,7 @@ const Shop = () => {
                             cart={cart}></Cart>)
                          }
                         <button className='btn-choose-the-best-one'>CHOOSE THE BEST ONE</button>
-                        <button onClick={()=>randomFromCart(cart)} className='reset'>RESET</button>
+                        <button onClick={()=>resetFromCart(cart)} className='reset'>RESET</button>
                     </div>
 
                 </div>
