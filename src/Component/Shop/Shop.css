@@ -2,6 +2,9 @@
     display: grid;
     grid-template-columns: 6fr 2fr;
     gap:0px;
+    position: relative;
+
+
 
 }
 
@@ -10,7 +13,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     margin:100px 50px;
-    position: relative;
+
 
 }
 
@@ -37,12 +40,11 @@
     margin-right: 50px;
     margin-left: 0px;
     color:aliceblue;
-    position:sticky;
-    top: 0;
-    
-
+    position: sticky;
+    top:0;
     
 }
+
 .btn-choose-the-best-one{
     width:50%;
     background-color: #6082a1;
