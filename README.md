@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Car-Exclusive
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This the live link of the project (https://lucky-queijadas-ff5a34.netlify.app/).
 
 ## Available Scripts
 
